@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
+  <title>Cadastro</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/registro.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+  integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+</head>
+<body>
+  <main class="container">
+    <h2> Registro do Aluno </h2>
+    <form action="">
+        <div class="input-field">
+            <input type="email" name="email" id="email"
+                placeholder="Digite seu Email">
+            <div class="underline"></div>
+             <br>
+            <div class="input-field">
+            <input type="text" name="name" id="name"
+                placeholder="Digite seu Nome">
+            <div class="underline"></div>
+            <br>
+        <div class="input-field">
+          <input type="text" name="lastname" id="lastname"
+              placeholder="Digite seu Sobrenome">
+          <div class="underline"></div>
+          <br>
+      <div class="input-field">
+        <input type="number" name="cpf" id="cpf"
+            placeholder="Digite seu CPF">
+        <div class="underline"></div>
+        <br>
+    <div class="input-field">
+      <input type="tel" name="phone" id="phone"
+          placeholder="Informe seu Telefone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+      <div class="underline"></div>
+      <br>
+  <div class="input-field">
+    <input type="password" name="password" id="password"
+        placeholder="Digite sua Senha">
+    <div class="underline"></div>
+    <br>
+   <div class="input-field">
+  <input type="password" name="consenha" id="consenha"
+      placeholder="Confirmar Senha">
+  <div class="underline"></div>
+  <div class="input-field">
+    <div class="input-field">
+      <br>
+    </div>
+      <div class="full-box">
+        <input type="checkbox" name="agreement" id="agreement">
+        <label for="agreement" id="agreement-label">Eu li e aceito os <a href="#">termos de uso</a></label>
+      </div>
+
+      <!-- social media -->
+      <div class="social-media">
+        <ul class="list-social-media">
+            <a class="link-social-media" href="#">
+                <li class="item-social-media">
+                    <i class="fab fa-facebook-f"></i>        
+                </li>
+            </a>
+            <a class="link-social-media" href="#">
+                <li class="item-social-media">
+                    <i class="fab fa-google-plus-g"></i>
+                </li>
+            </a>
+            <a class="link-social-media" href="#">
+                <li class="item-social-media">
+                    <i class="fab fa-linkedin-in"></i>
+                </li>
+            </a>
+        </ul>
+    </div>
+    <!-- social media -->
+      <div class="box">
+        <a href="telalogin.html">
+        <input id="btn-submit" type="button" value="Registrar">
+        </a>
+      </div>
+    </form>
+  </div>
+  <p class="error-validation template"></p>
+  <script src="js/scripts.js"></script>
+   <span class="text-logo">C-Helper.</span>
+      <span class="line-left">
+      </main>
+</body>
+</html>
